@@ -1,0 +1,29 @@
+ROTAS
+
+-- EVENTS
+- GET /admin/events
+- GET /events/:id
+- POST /admin/events
+- PUT /admin/events/:id
+- DELETE /admin/events/:id
+
+-- EVENTS GROUPS
+- GET /admin/events/:id_event/groups
+- GET /admin/events/:id_event/groups/:id
+- POST /admin/events/:id_event/groups
+- PUT /admin/events/:id_event/groups/:id
+- DELETE /admin/events/:id_event/groups/:id
+
+-- EVENTS PEOPLE
+- GET /admin/events/:id_event/groups/:id_group/people
+- GET /admin/events/:id_event/groups/:id_group/people/:id
+- POST /admin/events/:id_event/groups/:id_group/people
+- PUT /admin/events/:id_event/groups/:id_group/people/:id
+- DELETE /admin/events/:id_event/groups/:id_group/people/:id
+
+-- CONFIGURATION
+- POST /admin/login
+
+-- WEB SITE
+- GET /events/:id
+- GET /events/:id_event/person/:cpf

@@ -1,0 +1,11 @@
+PROJETO AMIGO SECRETO
+
+Painel Administrativo
+- CRUD EVENTOS
+- CRUD GRUPOS
+- CRUD PESSOAS (USUÁRIOS?)
+
+Site:
+- Acessar tela do EVENTO
+- Login pelo CPF ou outro dado
+- O sorteio acontece na hora do CADASTRO, não na hora da identificação
